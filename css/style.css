@@ -26,7 +26,8 @@
   --smoky-black-1: hsla(40, 12%, 5%, 1);
   --smoky-black-2: hsla(30, 8%, 5%, 1);
   --smoky-black-3: hsla(0, 3%, 7%, 1);
-  --eerie-black-1: hsla(210, 4%, 9%, 1);
+  /* --eerie-black-1: hsla(210, 4%, 9%, 1); */
+  --eerie-black-1: #141313;
   --eerie-black-2: hsla(210, 4%, 11%, 1);
   --eerie-black-3: hsla(180, 2%, 8%, 1);
   --eerie-black-4: hsla(0, 0%, 13%, 1);
@@ -605,7 +606,7 @@ body.nav-active { overflow: hidden; }
   left: 0;
   width: 100%;
   background-color: transparent;
-  padding-block: 40px;
+  padding-block: 20px;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
@@ -622,7 +623,7 @@ body.nav-active { overflow: hidden; }
   transition-delay: 250ms;
 }
 
-.header .container {
+.header__container {
   padding-inline: 20px;
   display: flex;
   justify-content: space-between;
@@ -674,28 +675,28 @@ body.nav-active { overflow: hidden; }
   transform: translateX(360px);
 }
 
-.navbar .close-btn {
+.navbar__close-btn {
   color: var(--white);
-  border: 1px solid currentColor;
+  border: 1.5px solid currentColor;
   padding: 4px;
   border-radius: var(--radius-circle);
   margin-inline-start: auto;
   margin-block: 30px 20px;
 }
 
-.navbar .close-btn ion-icon { --ionicon-stroke-width: 40px; }
-
-.navbar .close-btn:is(:hover, :focus-visible) { color: var(--gold-crayola); }
-
-.navbar .logo {
-  max-width: max-content;
-  margin-inline: auto;
-  margin-block-end: 60px;
+.navbar__logo  img {
+  height: 100px;
+  width: auto;
 }
+
+.navbar__close-btn ion-icon { --ionicon-stroke-width: 40px; }
+
+.navbar__close-btn:is(:hover, :focus-visible) { color: var(--gold-crayola); }
 
 .navbar-list {
   border-block-end: 1px solid var(--white-alpha-20);
   margin-block-end: 100px;
+  margin-top: 25px;
 }
 
 .navbar-item { border-block-start: 1px solid var(--white-alpha-20); }
@@ -710,11 +711,11 @@ body.nav-active { overflow: hidden; }
 
 .navbar-link::after { display: none; }
 
-.navbar-link .span { transition: var(--transition-1); }
+.navbar-link { transition: var(--transition-1); }
 
-.navbar-link:is(:hover, :focus-visible, .active) .span {
+.navbar-link:is(:hover, :focus-visible, .active) {
   color: var(--gold-crayola);
-  transform: translateX(20px);
+  /* transform: translateX(20px); */
 }
 
 .navbar-link .separator {
@@ -764,10 +765,6 @@ body.nav-active { overflow: hidden; }
   opacity: 1;
   pointer-events: all;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #HERO
@@ -1966,7 +1963,7 @@ textarea.input-field {
 
   .navbar .separator { display: none; }
 
-  .navbar-link:is(:hover, :focus-visible, .active) .span {
+  .navbar-link:is(:hover, :focus-visible, .active) {
     transform: unset;
   }
 
