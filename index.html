@@ -40,39 +40,112 @@
       <div class="preload__circle"></div>
       <p class="preload__text">JimBakehouse</p>
     </div>
-    <div class="top-bar container">
-      <address class="top-bar__address">
-        <ion-icon name="loacation-outline" aria-hidden="true"></ion-icon>
-        <span class="top-bar__span">
-          The Equity Bank Kasarani Branch Building, on Judah Avenue of the
-          Kasarani Mwiki Road.
-        </span>
-      </address>
-      <div class="top-bar__seperator"></div>
-      <div class="top-bar__times">
-        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-        <span class="top-bar__span">
-          Daily: 8:00 AM to 10:00 PM
-        </span>
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">
+            The Equity Bank Kasarani Branch Building, Kasarani Mwiki Road.
+          </span>
+        </address>
+        <div class="separator"></div>
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">Daily : 8.00 am to 10.00 pm</span>
+        </div>
+        <a href="tel:+11234567890" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">+254 723 147 258</span>
+          </a>
+          <div class="separator"></div>
+          <a href="mailto:info@jimbakehouse.com" class="topbar-item link">
+            <div class="icon">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">info@jimbakehouse.com</span>
+          </a>
+        </div>
       </div>
-      <a href="tel:+11234567890" class="top-bar__phone top-bar__link">
-        <div class="icon">
-          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-        </div>
-        <span class="span">+254 745 123 456</span>
-      </a>
-
-      <div class="separator"></div>
-
-      <a href="mailto:info@jimbakehouse.com"
-        class="top-bar__email top-bar__link">
-        <div class="icon">
-          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-        </div>
-        <span class="span">info@jimbakehouse.com</span>
-      </a>
     </div>
-
+    <header class="header" data-header>
+      <div class="container">
+        <div>
+          <a href="#" class="logo">
+            <img src="/images/logo.svg" width="160" height="50"
+              alt="JimBakehouse - Home">
+          </a>
+        </div>
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+          <a href="#" class="logo">
+            <img src="/images/logo.svg" width="160" height="50"
+              alt="JimBakehouse - Home">
+          </a>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+                <span class="span">Home</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Menus</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">About Us</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Our Chefs</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+            <address class="body-4">
+              The Equity Bank Kasarani Branch Building, <br>
+              on Judah Avenue of the Kasarani Mwiki Road.
+            </address>
+            <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+            <a href="mailto:booking@grilli.com"
+              class="body-4 sidebar-link">booking@grilli.com</a>
+            <div class="separator"></div>
+            <p class="contact-label">Call Us</p>
+            <a href="tel:+254723147258"
+              class="body-1 contact-number hover-underline">
+              +254 723 147 258
+            </a>
+          </div>
+        </nav>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
     <script src="js/script.js"></script>
     <script type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
