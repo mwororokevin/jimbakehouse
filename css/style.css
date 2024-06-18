@@ -1483,6 +1483,7 @@ textarea.input-field {
     left: 0;
     width: 100%;
     padding-block: 10px;
+    padding-inline: 16px;
     border-block-end: 1px solid var(--white-alpha-20);
     z-index: 4;
     transition: var(--transition-1);
@@ -1490,25 +1491,25 @@ textarea.input-field {
 
   .topbar:has(~ .header.active) { transform: translateY(-100%); }
 
-  .topbar-item:not(.link),
+  .topbar__item:not(.link),
   .topbar .separator { display: none; }
 
-  .topbar .container,
-  .topbar-item {
+  .topbar__container,
+  .topbar__item {
     display: flex;
     align-items: center;
   }
 
-  .topbar .container {
+  .topbar__container {
     justify-content: center;
     gap: 30px;
   }
 
-  .topbar-item { gap: 6px; }
+  .topbar__item { gap: 6px; }
 
-  .topbar-item ion-icon { --ionicon-stroke-width: 60px; }
+  .topbar__item ion-icon { --ionicon-stroke-width: 60px; }
 
-  .topbar-item .span { font-size: var(--fontSize-label-1); }
+  .topbar__item-span { font-size: var(--fontSize-label-1); }
 
   .topbar .link { transition: var(--transition-1); }
 
@@ -1766,7 +1767,7 @@ textarea.input-field {
    * TOPBAR
    */
 
-  .topbar-item:not(.link) { display: flex; }
+  .topbar__item:not(.link) { display: flex; }
 
   .topbar .item-2 { margin-inline-end: auto; }
 
@@ -1933,7 +1934,7 @@ textarea.input-field {
    * TOPBAR
    */
 
-  .topbar .container { max-width: unset; }
+  .topbar__container { max-width: unset; }
 
   .topbar .separator { display: block; }
 
