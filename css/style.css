@@ -589,10 +589,6 @@ body.nav-active { overflow: hidden; }
 
 .topbar { display: none; }
 
-
-
-
-
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -606,7 +602,6 @@ body.nav-active { overflow: hidden; }
   width: 100%;
   background-color: transparent;
   background: var(--smoky-black-1) url("../images/footer-form-bg.png");
-  padding-block: 10px;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
@@ -1488,7 +1483,6 @@ textarea.input-field {
     top: 0;
     left: 0;
     width: 100%;
-    padding-block: 10px;
     padding-inline: 16px;
     background: var(--smoky-black-1) url("../images/footer-form-bg.png");
     /* border-block-end: 1px solid var(--white-alpha-20); */
@@ -1528,7 +1522,7 @@ textarea.input-field {
    * HEADER
    */
 
-  .header { top: 51px; }
+  .header { top: 31px; }
 
   .header.active { top: 0; }
 
