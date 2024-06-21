@@ -1490,7 +1490,8 @@ textarea.input-field {
     width: 100%;
     padding-block: 10px;
     padding-inline: 16px;
-    border-block-end: 1px solid var(--white-alpha-20);
+    background: var(--smoky-black-1) url("../images/footer-form-bg.png");
+    /* border-block-end: 1px solid var(--white-alpha-20); */
     z-index: 4;
     transition: var(--transition-1);
   }
