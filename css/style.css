@@ -1676,9 +1676,11 @@ textarea.input-field {
     display: grid;
     position: absolute;
     z-index: 1;
-    color: var(--deep-chestnut);
+    color: var(--white);
+    font-weight: var(--fontFamily-dm_sans);
     font-size: 2.4rem;
     border: 1px solid var(--deep-chestnut);
+    border-radius: var(--radius-circle);
     width: 45px;
     height: 45px;
     place-items: center;
