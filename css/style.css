@@ -339,6 +339,7 @@ body.nav-active { overflow: hidden; }
   letter-spacing: var(--letterSpacing-5);
   max-width: max-content;
   border: 2px solid var(--deep-chestnut);
+  border-radius: 7.5px;
   padding: 12px 45px;
   overflow: hidden;
   z-index: 1;
