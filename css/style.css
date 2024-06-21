@@ -957,7 +957,7 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 120px;
 }
 
-.about-banner > .w-100 { padding-inline-start: 50px; }
+/* .about-banner > .w-100 { padding-inline-start: 50px; } */
 
 .about .abs-img { position: absolute; }
 
@@ -1559,7 +1559,7 @@ textarea.input-field {
 
   .about .container { gap: 80px; }
 
-  .about-banner > .w-100 { padding-inline-start: 90px; }
+  /* .about-banner > .w-100 { padding-inline-start: 90px; } */
 
   .about .abs-img-1 { width: 285px; }
 
