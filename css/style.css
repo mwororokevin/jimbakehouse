@@ -1304,7 +1304,7 @@ textarea.input-field {
 \*-----------------------------------*/
 
 .footer {
-  background-image: url('/images/chocolate-muffins-hero-2000.jpg'); 
+  background-image: url('https://mwororokevin.github.io/jimbakehouse/images/chocolate-muffins-hero-2000.jpg'); 
 }
 
 .footer-top { margin-block-end: 70px; }
@@ -1312,7 +1312,7 @@ textarea.input-field {
 .footer-brand {
   position: relative;
   padding: 50px 40px;
-  background: var(--smoky-black-1) url("../images/footer-form-bg.png");
+  background: var(--smoky-black-1) url("https://mwororokevin.github.io/jimbakehouse/images/footer-form-bg.png");
   background-position: center top;
   background-repeat: repeat;
 }
@@ -1322,7 +1322,7 @@ textarea.input-field {
   top: 0;
   width: 15px;
   height: 100%;
-  background-image: url("../images/footer-form-pattern.svg");
+  background-image: url("https://mwororokevin.github.io/jimbakehouse/images/footer-form-pattern.svg");
   /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
   /* filter: invert(24%) sepia(62%) saturate(6823%) hue-rotate(347deg) brightness(101%) contrast(85%); */  /* Logo Red */
   /* filter: invert(24%) sepia(80%) saturate(469%) hue-rotate(328deg) brightness(95%) contrast(85%); */
